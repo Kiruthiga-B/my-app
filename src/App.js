@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Login } from ".pages/Login";
+import { Login } from "./pages/Login";
 import { NotFoundPage } from './pages/NotFoundPage';
-import { UserMaster } from '.pages/UserMaster';
+import { UserMaster } from './pages/UserMaster';
 import Container from 'react-bootstrap/Container';
 import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 
